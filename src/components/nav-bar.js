@@ -1,22 +1,23 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const NavBar = () => (
     <nav className="nav">
         <ul className="nav__list">
             <li className="nav__el">
-                <a to="/" className="nav__link">FAQ</a>
+                <Link to="/" className="nav__link">FAQ</Link>
             </li>
             <li className="nav__el">
-                <a to="/" className="nav__link">Pricing</a>
+                <Link to="/" className="nav__link">Pricing</Link>
             </li>
             <li className="nav__el">
-                <a to="/" className="nav__link">Team</a>
+                <Link to="/" className="nav__link">Team</Link>
             </li>
             <li className="nav__el">
-                <a to="/" className="nav__link">Contact</a>
+                <Link to="/" className="nav__link">Contact</Link>
             </li>
             <li className="nav__el">
-                <a to="/" className="nav__link">Sign in</a>
+                <Link to="/" className="nav__link">Sign in</Link>
             </li>
         </ul>
     </nav>       
