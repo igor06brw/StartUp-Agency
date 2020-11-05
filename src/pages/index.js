@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import NavBar from "../components/nav-bar";
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -10,6 +11,7 @@ import '../styles/styles.scss'
 
 const IndexPage = () => (
   <Layout>
+    <NavBar></NavBar>
     <SEO title="Home" />
     <h1 className="title">Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
