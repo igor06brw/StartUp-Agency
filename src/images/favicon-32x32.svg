@@ -1,0 +1,21 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 45.125 45.125">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4056fe;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="3.563" y="3.563" width="38" height="38" rx="8" ry="8"/>
+  <path class="cls-2" d="M531.662,660.412a8.139,8.139,0,1,1-16.277,0" transform="translate(-506.406 -638.437)"/>
+  <path id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-2" d="M527.9,660.407a4.372,4.372,0,0,1-8.743,0" transform="translate(-506.406 -638.437)"/>
+  <path id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-2" d="M525.859,661.151a8.138,8.138,0,0,1,16.276,0" transform="translate(-506.406 -638.437)"/>
+  <path id="Ellipse_1_copy_2-2" data-name="Ellipse 1 copy 2" class="cls-2" d="M529.626,661.157a4.371,4.371,0,1,1,8.742,0" transform="translate(-506.406 -638.437)"/>
+</svg>
