@@ -1,15 +1,19 @@
 import React from "react"
-import NavBar from "../components/nav-bar";
-
-import Layout from "../components/layout"
+import NavBar from "../components/nav-bar"
+import Logo from "../components/logo"
 
 //Stylesheets!
 import '../styles/styles.scss'
 
 const IndexPage = () => (
-  <Layout>
-    <NavBar></NavBar>
-  </Layout>
+  <div>
+     <Logo/>
+    <NavBar>
+
+    </NavBar>
+
+  </div>
+  
 )
 
 export default IndexPage
