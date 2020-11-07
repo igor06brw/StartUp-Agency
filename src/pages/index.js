@@ -6,12 +6,9 @@ import Logo from "../components/logo"
 import '../styles/styles.scss'
 
 const IndexPage = () => (
-  <div>
-     <Logo/>
-    <NavBar>
-
-    </NavBar>
-
+  <div className="container level">
+     <Logo />
+    <NavBar />
   </div>
   
 )

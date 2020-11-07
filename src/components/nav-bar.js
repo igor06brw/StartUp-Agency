@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const NavBar = () => (
-    <nav className="nav">
+    <nav className="nav level-right">
         <ul className="nav__list columns">
             <li className="nav__el">
                 <Link to="/" className="nav__link column">FAQ</Link>

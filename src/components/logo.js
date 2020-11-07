@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import logo from "./../images/logo.svg"
 
 const Logo = () => (
-    <div className="logo">
+    <div className="logo level-left">
         <Link to="/" className="logo__link">
             <img src={logo} className="logo__picture" alt="Logo" />
         </Link>
