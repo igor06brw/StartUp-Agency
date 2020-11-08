@@ -8,15 +8,13 @@ import '../styles/styles.scss'
 const IndexPage = ({ data }) => {
   const header = {
     headline: data.markdownRemark.frontmatter.heading,
-    description: data.markdownRemark.frontmatter.heading,
+    description: data.markdownRemark.frontmatter.description,
     buttonOne: data.markdownRemark.frontmatter.buttonOne,
     buttonTwo: data.markdownRemark.frontmatter.buttonTwo,
   };
-  console.log(data);
-
 
   return (
-    <div className="container level pt-6">
+    <div className="container is-full pt-6">
       <Header data={ header }/>
     </div>
   )
