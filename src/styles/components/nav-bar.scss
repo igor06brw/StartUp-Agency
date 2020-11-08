@@ -1,0 +1,14 @@
+
+.nav {
+    &__el:last-of-type {
+        padding-top: 2%;
+    }
+}
+.is-border {
+    line-height:5px;
+    width: 110px;
+    height: 90%;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px white;
+    border-radius: 5px;
+}
