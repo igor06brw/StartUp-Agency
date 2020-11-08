@@ -5,12 +5,19 @@ import { graphql } from 'gatsby';
 //Stylesheets!
 import '../styles/styles.scss'
 
-const IndexPage = ({ data }) => (
-  <div className="container level pt-6">
-     <Header />
-     <h1>{data.markdownRemark.frontmatter.heading}</h1>
-  </div>
-)
+const IndexPage = ({ data }) => {
+  const header = {
+    headline: data.markdownRemark.frontmatter.heading,
+  };
+  console.log(data);
+
+
+  return (
+    <div className="container level pt-6">
+      <Header data={ header }/>
+    </div>
+  )
+}
 
 export const query = graphql`
   query {
@@ -18,8 +25,8 @@ export const query = graphql`
       frontmatter {
         heading
         description
-        button_2
         button_1
+        button_2
       }
     }
   }
