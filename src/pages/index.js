@@ -8,6 +8,9 @@ import '../styles/styles.scss'
 const IndexPage = ({ data }) => {
   const header = {
     headline: data.markdownRemark.frontmatter.heading,
+    description: data.markdownRemark.frontmatter.heading,
+    buttonOne: data.markdownRemark.frontmatter.buttonOne,
+    buttonTwo: data.markdownRemark.frontmatter.buttonTwo,
   };
   console.log(data);
 
