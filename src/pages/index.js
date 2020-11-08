@@ -14,9 +14,7 @@ const IndexPage = ({ data }) => {
   };
 
   return (
-    <div className="container is-full pt-6">
       <Header data={ header }/>
-    </div>
   )
 }
 
