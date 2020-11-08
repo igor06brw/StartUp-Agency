@@ -20,8 +20,8 @@ const Header = ({ data }) => {
             <p className="header__subtitle subtitle has-text-weight-light has-text-white pt-8 ">{ description }</p>
           </div>
         </div>
-        <Button title={ buttonOne } className="button"></Button>
-        <Button title={ buttonTwo } className="button is-danger"></Button>
+        <Button title={ buttonOne } className="button is-pink border-0"></Button>
+        <Button title={ buttonTwo } className="button is-green border-0"></Button>
       </div>
     </header>
   )
