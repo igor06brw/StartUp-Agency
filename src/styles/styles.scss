@@ -1,8 +1,6 @@
 @charset "utf-8";
 @import "~bulma/bulma.sass";
-
-$primary-color: rgb(28, 52, 77);
-$second-color: rgb(53, 76, 251);
+@import "variables.scss";
 
 .header {
     color: $primary-color;
@@ -10,3 +8,21 @@ $second-color: rgb(53, 76, 251);
     width: 100vw;
     height: 100vh;
 }
+
+.p {
+    &t {
+        &-7 {
+            padding-top:$is-7;
+        }
+        &-8 {
+            padding-top:$is-8;
+        }
+        &-9 {
+            padding-top:$is-9;
+        }
+        &-10 {
+            padding-top:$is-10;
+        }
+    }
+}
+

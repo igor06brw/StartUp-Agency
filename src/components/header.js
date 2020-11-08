@@ -6,7 +6,7 @@ const Header = ({ data }) => {
   const { headline, description, buttonOne, buttonTwo } = data
 
   return(
-    <header className="header columns pt-12">
+    <header className="header columns pt-10">
       <div className="header__body container is-fullwidth">
         <div className="columns">
           <Logo />
@@ -15,7 +15,7 @@ const Header = ({ data }) => {
         <div className="hero pt-6">
           <div className="hero-body has-text-centered">
             <h1 className="title is-1 is-spaced has-text-white has-text-weight-normal">{ headline }</h1>
-            <p className="subtitle is-5 has-text-weight-light has-text-white">{ description }</p>
+            <p className="subtitle is-4 has-text-weight-light has-text-white">{ description }</p>
           </div>
         </div>
       </div>
