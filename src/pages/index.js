@@ -24,8 +24,8 @@ export const query = graphql`
       frontmatter {
         heading
         description
-        button_1
-        button_2
+        buttonOne
+        buttonTwo
       }
     }
   }

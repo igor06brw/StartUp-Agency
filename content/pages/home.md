@@ -1,8 +1,8 @@
 ---
 heading: 'Business growth & management solutions'
 description: 'We provide businesses with all financial services including financial analysis of the enterprise, inbound marketing & website development service.'
-button-1: 'Start your free trial'
-button-2: 'Discover in video'
+buttonOne: 'Start your free trial'
+buttonTwo: 'Discover in video'
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

@@ -1,9 +1,11 @@
 import React from "react"
 import NavBar from "../components/nav-bar";
 import Logo from "../components/logo";
+import Button from "../components/button";
 
 const Header = ({ data }) => {
   const { headline, description, buttonOne, buttonTwo } = data
+  console.log(buttonOne);
 
   return(
     <header className="header columns pt-7">
@@ -18,6 +20,8 @@ const Header = ({ data }) => {
             <p className="header__subtitle subtitle has-text-weight-light has-text-white pt-8 ">{ description }</p>
           </div>
         </div>
+        <Button title={ buttonOne } className="button"></Button>
+        <Button title={ buttonTwo } className="button is-danger"></Button>
       </div>
     </header>
   )
