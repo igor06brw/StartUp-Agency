@@ -21,8 +21,8 @@ const Header = ({ data }) => {
           </div>
         </div>
         <div className="has-text-centered">
-          <Button title={ buttonOne } className="button is-pink is-size-5 border-0 mr-6 has-text-white px-6 py-5"></Button>
-          <Button title={ buttonTwo } className="button is-green is-size-5 border-0 has-text-white px-6 py-5"></Button>
+          <Button title={ buttonOne } className="button is-pink is-size-5 border-0 mr-6 has-text-white px-6 py-5 "></Button>
+          <Button title={ buttonTwo } className="button is-green is-size-5 border-0 has-text-white px-6 py-5 "></Button>
         </div>
       </div>
     </header>
