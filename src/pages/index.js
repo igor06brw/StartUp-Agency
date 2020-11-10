@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header"
-import { graphql } from 'gatsby';
+import Logotypes from "../components/logotypes"
+import { graphql } from 'gatsby'
 import Img from "gatsby-image"
 
 import pictureOne from '../images/bg-1.jpg'
@@ -22,6 +23,7 @@ const IndexPage = ({ data }) => {
   <div className="relative">
       <Header data={ headerData }/>
       <Img fluid={data.bg.fluid} className="center-absolute" />
+      <Logotypes />
   </div>
   )
 }
