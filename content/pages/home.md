@@ -4,7 +4,3 @@ description: 'We provide businesses with all financial services including financ
 buttonOne: 'Start your free trial'
 buttonTwo: 'Discover in video'
 ---
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.

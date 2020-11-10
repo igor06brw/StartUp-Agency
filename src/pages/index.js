@@ -8,6 +8,7 @@ import pictureOne from '../images/bg-1.jpg'
 
 //Stylesheets!
 import '../styles/styles.scss'
+import SectionThree from "../components/sections/sectionThree"
 
 const IndexPage = ({ data }) => {
   console.log(data)
@@ -22,8 +23,9 @@ const IndexPage = ({ data }) => {
   return (
   <div className="relative">
       <Header data={ headerData }/>
-      <Img fluid={data.bg.fluid} className="center-absolute" />
+      <img src={data.bg.fluid.src} className="center-absolute" />
       <Logotypes />
+      <SectionThree />
   </div>
   )
 }
@@ -41,6 +43,12 @@ export const query = graphql`
     bg: imageSharp {
       fluid {
         ...GatsbyImageSharpFluid
+      }
+    }
+    sectionThree: markdownRemark(fileAbsolutePath: { regex: "/sectionThree.md/" }) {
+      frontmatter {
+        heading
+        description
       }
     }
   }
