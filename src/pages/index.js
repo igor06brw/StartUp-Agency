@@ -19,9 +19,9 @@ const IndexPage = ({ data }) => {
   };
 
   return (
-  <div>
+  <div className="relative">
       <Header data={ headerData }/>
-      <Img fluid={data.bg.fluid} />
+      <Img fluid={data.bg.fluid} className="center-absolute" />
   </div>
   )
 }
